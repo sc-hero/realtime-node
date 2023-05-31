@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Node Realtime Event Driven Architecture",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sc-hero/realtime-node.git"
+  },
+  "keywords": [
+    "Node",
+    "Event",
+    "Driven",
+    "Architecture"
+  ],
+  "author": "Min Khant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sc-hero/realtime-node/issues"
+  },
+  "homepage": "https://github.com/sc-hero/realtime-node#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.2",
+    "express": "^4.18.2",
+    "express-sse": "^0.5.3",
+    "helmet": "^7.0.0",
+    "mongoose": "^7.2.2",
+    "nanoid": "^4.0.2"
+  }
+}
